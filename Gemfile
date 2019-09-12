@@ -58,6 +58,7 @@ gem 'webpacker'
 group :development, :test do
   # Call 'byebug' anywhere in your code to drop into a debugger console
   gem 'byebug', platform: :mri
+  gem 'dotenv-rails', '2.7.5'
 end
 
 group :test do
